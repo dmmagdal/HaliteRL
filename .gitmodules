@@ -1,0 +1,15 @@
+[submodule "chlorine"]
+	path = chlorine
+	url = https://github.com/rooklift/chlorine
+[submodule "fluorine"]
+	path = fluorine
+	url = https://github.com/rooklift/fluorine
+[submodule "Halite"]
+	path = Halite
+	url = https://github.com/HaliteChallenge/Halite
+[submodule "Halite-II"]
+	path = Halite-II
+	url = https://github.com/HaliteChallenge/Halite-II
+[submodule "Halite-III"]
+	path = Halite-III
+	url = https://github.com/HaliteChallenge/Halite-III
