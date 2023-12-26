@@ -30,6 +30,16 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
      - Halite-III Python3 bot path: `Halite-III/starter_kits/Python3/MyBot.py`
  - Variations of different bots will be contained within the respective `Halite` games folder in `MyBots/`. There will be an accompanying `NOTES.md` file for each to detail the notes on the different bot implementations.
  - The raw size of the repo once all submodules are initialized (with no bots implemented & the local replay viewers uninitialized) is 565 MB.
+ - To build the local replay viewers (with just `npm`):
+     - `cd` into the respective submodule (either `chlorine` or `fluorine`)
+     - `npm install` to install the necessary modules
+     - `npm install electron --save-dev --save-exact`
+     - `./node_modules/.bin/electron .` to run the electron app
+ - To reset the state of the submodules (either the Halite games or the local replay viewers):
+     - `cd` into the respective submodule
+     - `git reset --hard HEAD`
+     - `git submodule update --init --recursive`
+ - The `ReplayDockerfiles` folder is where I try to make scripts to use docker to build the local replay viewers. It currently does not work.
 
 
 ### References:
@@ -39,3 +49,5 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
  - [Halite 3 repo](https://github.com/HaliteChallenge/Halite-III)
  - [Chlorine repo](https://github.com/rooklift/chlorine) (Halite 2 local replay viewer from rooklift - electron)
  - [Fluorine repo](https://github.com/rooklift/fluorine) (Halite 3 local replay viewer from rooklift - electron)
+ - [Chlorine prebult binaries](https://github.com/rooklift/chlorine/releases) by rooklift
+ - [Fluorine dockerfile gist](https://gist.github.com/lpenz/09776db42cf5bdb5d6a2553d53f8899e) by lpenz to install fluorine & electron locally
