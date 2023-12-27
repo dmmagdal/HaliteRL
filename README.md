@@ -64,6 +64,7 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
      - Overall lack of clear documentation. There isn't much to actually explain what the different folders in each repo are for or how they work. This problem links to the other problems above.
  - I sort of found a work around with Kaggle for Halite-III. You can get the Halite-III environment and package from `kaggle-environments` package.
      - According to the `kaggle-environments` [pypi](https://pypi.org/project/kaggle-environments/), the package requires Python>=3.8 but I had issues installing it on 3.11 (so I just used Python 3.10 which I specified in the conda `environment.yml`)
+     - Still having dependency issues from installing `kaggle environments` even in the conda environment. The package will successfully install but when importing `kaggle-environments`, the following error would arise: `Loading environment lux_ai_s2 failed: No module named 'vec_noise'` (vec_noise [pypi](https://pypi.org/project/vec-noise/)). Attempting to install `vec_noise` in either conda or `venv` results in erros. Looks like until this issue is resolved, I cannot actually experiment with creating RL agents in halite, even with kaggle.
 
 
 ### References:
@@ -77,12 +78,12 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
      - [Fluorine repo](https://github.com/rooklift/fluorine) (Halite 3 local replay viewer from rooklift - electron)
      - [Chlorine prebult binaries](https://github.com/rooklift/chlorine/releases) by rooklift
      - [Fluorine dockerfile gist](https://gist.github.com/lpenz/09776db42cf5bdb5d6a2553d53f8899e) by lpenz to install fluorine & electron locally
- - Kaggle Halite
+ - Halite on Kaggle:
      - [Overview](https://www.kaggle.com/c/halite/overview)
      - [SDK Overview notebook](https://www.kaggle.com/code/sam/halite-sdk-overview/notebook)
      - [Getting Started notebook](https://www.kaggle.com/code/alexisbcook/getting-started-with-halite/notebook)
- - Kaggle Environment
+ - Kaggle Environment:
      - [Pypi](https://pypi.org/project/kaggle-environments/)
      - [Getting Started](https://www.kaggle.com/code/tarunbisht11/get-started-with-kaggle-environment)
- - Conda
+ - Conda:
      - [Managing Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
