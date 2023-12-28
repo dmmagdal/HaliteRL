@@ -87,3 +87,35 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
      - [Getting Started](https://www.kaggle.com/code/tarunbisht11/get-started-with-kaggle-environment)
  - Conda:
      - [Managing Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+ - Sentdex's Tutorials:
+     - PythonProgramming.net
+         - Halite II:
+             - [Introduction - Halite II 2017 Artificial Intelligence Competition p.1](https://pythonprogramming.net/introduction-halite-ii-artificial-intelligence-competition/)
+             - [Modifying Starter Bot - Halite II 2017 Artificial Intelligence Competition p.2](https://pythonprogramming.net/modify-starter-bot-halite-ii-artificial-intelligence-competition/)
+             - [Custom Bot - Halite II 2017 Artificial Intelligence Competition p.3](https://pythonprogramming.net/custom-ai-halite-ii-artificial-intelligence-competition/)
+             - [Deep Learning - Halite II 2017 Artificial Intelligence Competition p.4](https://pythonprogramming.net/deep-learning-halite-ii-artificial-intelligence-competition/)
+             - [Training Data Deep Learning - Halite II 2017 Artificial Intelligence Competition p.5](https://pythonprogramming.net/training-data-deep-learning-halite-ii-artificial-intelligence-competition/)
+             - [Training Model Deep Learning - Halite II 2017 Artificial Intelligence Competition p.6](https://pythonprogramming.net/training-model-deep-learning-halite-ii-artificial-intelligence-competition/)
+             - [Deploying Model Deep Learning - Halite II 2017 Artificial Intelligence Competition p.7](https://pythonprogramming.net/deploying-model-deep-learning-halite-ii-artificial-intelligence-competition/)
+         - Halite III:
+             - [Introduction - Halite III (2018) AI Coding Competition p.1](https://pythonprogramming.net/introduction-halite-iii-ai-coding-competition/)
+             - [Running Locally and getting surrounding halite - Halite III (2018) AI Coding Competition p.2](https://pythonprogramming.net/run-local-collect-halite-iii-ai-coding-competition/)
+             - [Moving towards most halite - Halite III (2018) AI Coding Competition p.3](https://pythonprogramming.net/moving-to-halite-iii-ai-coding-competition/)
+             - [Trying to not run into ourselves - Halite III (2018) AI Coding Competition p.4](https://pythonprogramming.net/not-running-into-halite-iii-ai-coding-competition/)
+             - [Moving to drop off halite - Halite III (2018) AI Coding Competition p.5](https://pythonprogramming.net/dropping-off-halite-iii-ai-coding-competition/)
+             - [Cleaning up a few things - Halite III (2018) AI Coding Competition p.6](https://pythonprogramming.net/cleaning-up-halite-iii-ai-coding-competition/)
+     - YouTube
+         - Halite II:
+             - []()
+             - []()
+             - []()
+             - []()
+             - []()
+             - []()
+         - Halite III:
+             - []()
+             - []()
+             - []()
+             - []()
+             - []()
+             - []()
