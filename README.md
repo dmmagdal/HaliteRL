@@ -68,6 +68,7 @@ Description: My attempts/research into the Halite challenges (2 & 3 in particula
      - UPDATE 12/31/23: I was able to confirm that the issues with the `kaggle-environments` package seem to be localized to my M2 macbook. I was able to set up and run halite with the `kaggle-environments` on my other machines (Ubuntu server & Windows laptop). I'm not sure if the problem is with Apple Silicon or with ARM chips in general. Will continue to investigate (try installing on my Raspberry Pi).
      - When running the `kaggle-environment` package on a functional system/environment, the main way example notebooks display the previous game is via `env.render()`. However, this is not possible on local machines running the py files on their own. To counter this, I exported the game with `env.toJSON()` to output to a JSON file in the replays folder. I have yet to verify that the exported JSON is compatible with the local replay projects (`fluorine` in this case).
      - UPDATE 01/01/24: I tried installing the `kaggle-environments` package in a Python docker container but saw that the `vec-noise` module was still having issues as part of the installation. Still need to verify on my raspberry pi.
+     - UPDATE 01/02/24: I tried installed the `kaggle-environments` package on my raspberry pi and still got errors. The specific error was not replicated but it's still not working nonetheless.
 
 
 ### References:
